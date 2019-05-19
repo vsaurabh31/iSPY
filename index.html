@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+
+<html lang="en" ><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="min.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Lightbox CSS -->
+    <link href="css/lightbox.css" rel="stylesheet" type="text/css">
+    <!-- Owl Carousel -->
+    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css">
+    <!-- Animate -->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <link href="css/responsive.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/min.css">
+    <link rel="stylesheet" type="text/css" href="css/chat.css">
+    <script src="js/chat.js"></script>
+    </head>
+    <body>
+            <div class="l_c_h">
+                    <div class="c_h">
+                        <div class="left_c">
+                            <div class="left right_c left_icons">
+                                   <a href="#" class="mini" style="font-size:23px;">+</a>
+                            </div>
+                            <div class="left center_icons"><!--center_icons-->
+                                 Live Chat
+                            </div><!--end center_icons-->        	
+                        </div>
+                        <div class="right right_c" style="width:35px;">
+                            <a href="#" class="logout" title="End chat" name="" style="display:none;"><img src="chat/logout.png"></a>        	
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="chat_container" style="display: none;">
+                    <p class="no_provider">
+                         
+                        Operator Joined the Chat.
+                            </p>
+                    
+                    <div class="chat_message" style="display: none;">
+                    <input type="hidden" class="my_user" value="">
+                            </div>
+                        <div class="chat_text_area" style="display:none;">
+                            <textarea name="messag_send" class="messag_send" id="messag_send" placeholder="Enter Your Message and press CTRL"></textarea>
+                        </div>
+                        <div class="chat_entry">
+                               <form name="chat_form" class="chat_form has-validation-callback" id="chat_form" onsubmit="return false;">
+                              <p>
+                                  <input type="text" data-validation="required" name="user_chat" id="user_chat" class="user_chat" placeholder="Enter Your Name">
+                                  <input type="hidden" name="id" class="id" value="4919738359">
+                                  <input type="hidden" name="web" class="web" value="webaddress/">
+                              </p>
+                              <p>
+                                  <input type="text" data-validation="email" name="email_chat" id="email_chat" class="email_chat" placeholder="Enter Your Email">
+                              </p>
+                              <p>
+                                  <input type="text" data-validation="number" name="number_chat" id="number_chat" class="number_chat" placeholder="Enter Your Number">
+                              </p>
+                              <p style="text-align:left;">
+                                  <input type="submit" name="chat_submit" class="chat_submit" id="chat_submit" value="Start Chat">
+                              </p>
+                            </form>
+                        </div>
+                        
+                        <p class="footer_c">
+                            Powered by <a href="https://kalai6095.github.io/" target="_blank">kc</a>
+                        </p>
+                    </div>
+                </div>
+        <div class="wrapper">
+            <!-- Start Header -->
+    
+            <header class="heaer-style1">
+                <!-- Start Header Sec -->
+                <div class="header" id="myHeader">
+                <div class="container header-sec">
+                    <div class="row">
+                        <span class="col-lg-2 col-sm-12 logo">
+                   <a href="index1.html">
+                   <!-- <img class="main" src="images/logo.png" alt="Fitness Gym">
+                   <img class="fix" src="images/logo-fix.png" alt="Fitness Gym"> --><h4 class="logoText">iSPY</h4></a>
+                   </span>
+                        <div class="col-xl-10 col-lg-10 col-sm-12 header-right">
+                            <div class="header_search_outer">
+                                <a href="#" class="btn-colur">Contact</a>
+                            </div>
+                            <!-- Start Navigation -->
+                            <nav class="navbar navbar-expand-md navbar-dark navbar-custom">
+                                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                              
+                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                    <ul class="navbar-nav">
+                                      <li class="nav-item ">
+                                            <a class="nav-link" href="#home" data-scroll-nav="1">Home</a>
+                                        </li>
+                                        
+                                        <li class="nav-item ">
+                                            <a class="nav-link"  href="#about"  data-scroll-nav="2">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#features" data-scroll-nav="3">Features</a>
+                                        </li>
+    
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#pricing" data-scroll-nav="4">Price</a>
+                                        </li>
+                                         <!-- <li class="nav-item">
+                                            <a class="nav-link" href="#" data-scroll-nav="5">Testimonial</a>
+                                        </li> -->
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="#contact" data-scroll-nav="6">Contact</a>
+                                        </li>
+                                      
+                                              
+                                               
+    
+                                            </div>
+                                        </li>
+                                     
+                                       
+                                    </ul>
+                                </div>
+                            </nav>
+                            </div>
+                            <script>
+                                    window.onscroll = function() {myFunction()};
+                                    
+                                    var header = document.getElementById("myHeader");
+                                    var sticky = header.offsetTop;
+                                    
+                                    function myFunction() {
+                                      if (window.pageYOffset > sticky) {
+                                        header.classList.add("sticky");
+                                      } else {
+                                        header.classList.remove("sticky");
+                                      }
+                                    }
+                                    </script>
+                            <!-- End Navigation -->
+                        </div>
+                    </div>
+                </div>
+                <!-- End Header Sec -->
+            </header>
+                <!-- End Header -->
+                <!-- Start Banner -->
+                <div id="home">
+                <div class="banner-style3" data-scroll-index="1">
+                    <div class="banner-style3content feature-img-box2">
+                        <img src="images/oval-1.svg" alt="icon" class="oval-one">
+                        <img src="images/shape-1.svg" alt="icon" class="shape-three">
+                        <img src="images/shape-55.svg" alt="icon" class="shape-four">
+                        <img src="images/shape-56.svg" alt="icon" class="shape-five">
+                        <img src="images/shape-57.svg" alt="icon" class="shape-six">
+                        <img src="images/shape-58.svg" alt="icon" class="shape-seven">
+                        <img src="images/shape-59.svg" alt="icon" class="shape-eight">
+                        <img src="images/shape-60.svg" alt="icon" class="shape-nine">
+                        <img src="images/shape-61.svg" alt="icon" class="shape-ten">
+                        <img src="images/shape-62.svg" alt="icon" class="shape-eleven">
+                        <div class="illustration " data-wow-delay="1s" data-wow-duration="2s">
+                            <img class="banner-image1 wow fadeInUp animated" src="images/2-2.png" alt="">
+                            <img class="banner-image2 wow fadeInRight animated" src="images/2-3.png" alt="">
+                           
+                        </div>
+        
+                        <div class="container">
+                            <div class="main-wrapper">
+                                <h1 class="main-title wow fadeInUp  animated" data-wow-delay="0.4s">A Mobile App <br>For Every Business <br>Needs</h1>
+                                <p class="sub-title wow fadeInUp  animated" data-wow-delay="0.9s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>
+                                <a href="" class="btn-transprant">Read More</a>
+                            </div>
+                            <!-- /.main-wrapper -->
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <!-- End Banner -->
+
+<div id="grad1">
+<div id="about">
+    <div id="welcome" class="container">
+                    <div class="title"  >
+                        <h2>Welcome to our website</h2>
+                    </div>
+                    <p>This is <strong>Embellished</strong>, a free, fully standards-compliant CSS template designed by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>. The photos in this template are from <a href="http://fotogrph.com/"> Fotogrph</a>. This free template is released under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so you're pretty much free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun :) </p>
+                </div>
+     </div>   </div>
+     <div id="features">
+                <section class="corefeture padding-section" data-scroll-index="3">
+                    <div class="container">
+                        <div class="site-heading">
+                            <h3>Core Features</h3>
+                        </div>
+                        <!-- /.title-box -->
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                 <div class="single-service-style-two">
+                                    <div class="icon-box">
+                                        <img src="images/mail.svg" alt="mail">
+                                    </div>
+                                    <!-- /.icon-box -->
+                                    <div class="text-box">
+                                        <h4>Email</h4>
+                                        <p>Ut maximus enim dolor. Aenean
+                                            <br> auctor risus eget tincidunt.</p>
+                                    </div>
+                                    <!-- /.text-box -->
+                                </div>
+                                <!-- /.single-service-style-two -->
+                            </div>
+                            <!-- /.col-lg-4 -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                <div class="single-service-style-two">
+                                    <div class="icon-box">
+                                        <img src="images/safe.svg" alt="safe">
+                                    </div>
+                                    <!-- /.icon-box -->
+                                    <div class="text-box">
+                                        <h4>Online safety</h4>
+                                        <p>Ut maximus enim dolor. Aenean
+                                            <br> auctor risus eget tincidunt.</p>
+                                    </div>
+                                    <!-- /.text-box -->
+                                </div>
+                                <!-- /.single-service-style-two -->
+                            </div>
+                            <!-- /.col-lg-4 -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                <div class="single-service-style-two">
+                                    <div class="icon-box">
+                                        <img src="images/privacy.svg" alt="privacy">
+                                    </div>
+                                    <!-- /.icon-box -->
+                                    <div class="text-box">
+                                        <h4>Product Privacy</h4>
+                                        <p>Ut maximus enim dolor. Aenean
+                                            <br> auctor risus eget tincidunt.</p>
+                                    </div>
+                                    <!-- /.text-box -->
+                                </div>
+                                <!-- /.single-service-style-two -->
+                            </div>
+                            <!-- /.col-lg-4 -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                 <div class="single-service-style-two">
+                                    <div class="icon-box">
+                                        <img src="images/responsive.svg" alt="responsive">
+                                    </div>
+                                    <!-- /.icon-box -->
+                                    <div class="text-box">
+                                        <h4>Responsive</h4>
+                                        <p>Ut maximus enim dolor. Aenean
+                                            <br> auctor risus eget tincidunt.</p>
+                                    </div>
+                                    <!-- /.text-box -->
+                                </div>
+                                <!-- /.single-service-style-two -->
+                            </div>
+                            <!-- /.col-lg-4 -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                  <div class="single-service-style-two">
+                                    <div class="icon-box">
+                                        <img src="images/voice.svg" alt="voice">
+                                    </div>
+                                    <!-- /.icon-box -->
+                                    <div class="text-box">
+                                        <h4>Voice Works</h4>
+                                        <p>Ut maximus enim dolor. Aenean
+                                            <br> auctor risus eget tincidunt.</p>
+                                    </div>
+                                    <!-- /.text-box -->
+                                </div>
+                                <!-- /.single-service-style-two -->
+                            </div>
+                            <!-- /.col-lg-4 -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                 <div class="single-service-style-two">
+                                    <div class="icon-box">
+                                        <img src="images/support.svg" alt="support">
+                                    </div>
+                                    <!-- /.icon-box -->
+                                    <div class="text-box">
+                                        <h4>Support</h4>
+                                        <p>Ut maximus enim dolor. Aenean
+                                            <br> auctor risus eget tincidunt.</p>
+                                    </div>
+                                    <!-- /.text-box -->
+                                </div>
+                                <!-- /.single-service-style-two -->
+                            </div>
+                            <!-- /.col-lg-4 -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    </div>
+                    <!-- /.container -->
+                </section>
+                <div id="pricing">
+                <section1 class="pricing-desgin2 padding-section" id="price" data-scroll-index="4" >
+                    <div class="container" >
+                        <div class="site-heading">
+                            <h2>Pricing Options</h2>
+                           
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut<br> fugit, sed consequuntur magni dolores ratione voluptatem sequi nesciunt.</p>
+                        </div>
+                        <ul class="nav nav-tabs price-tab" role="tablist">
+                            <li role="presentation" class="nav-item">
+                                <a href="#price-1" class="nav-link active show" aria-controls="price-1" role="tab" data-toggle="tab" aria-expanded="true" aria-selected="true">Monthly</a>
+                            </li>
+                            <li role="presentation" class="nav-item">
+                                <a href="#price-2" class="nav-link" aria-controls="price-2" role="tab" data-toggle="tab" aria-selected="false">Yearly</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content priceing-tab">
+                            <div role="tabpanel" class="tab-pane active show" id="price-1">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-6 price">
+                                        <div class="pricing-box wow fadeInUp">
+                                            <div class="pricing-header">
+                                                <h2>Free</h2>
+                                                <h3 class="packeg_typ"><span>$</span>0<small>/mo</small></h3>
+                                            </div>
+                                            <ul class="list-unstyled plan-lists">
+                                                <li>One User</li>
+                                                <li>1000 ui elements</li>
+                                                <li>E-mail support</li>
+                                            </ul>
+                                            <a href="#" class="try">Try Now</a>
+                                            <a href="#" class="purchase-btn">Purchase</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 price">
+                                        <div class="pricing-box active wow fadeInUp">
+                                            <div class="pricing-header">
+                                                <h2>Professional</h2>
+                                                <h3 class="packeg_typ"><span>$</span>49<small>/mo</small></h3>
+                                            </div>
+                                            <ul class="list-unstyled plan-lists">
+                                                <li>Ten Users</li>
+                                                <li>3000 ui elements</li>
+                                                <li>E-mail support</li>
+                                            </ul>
+                                            <a href="#" class="try">Try Now</a>
+                                            <a href="#" class="purchase-btn">Purchase</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 price">
+                                        <div class="pricing-box wow fadeInUp">
+                                            <div class="pricing-header">
+                                                <h2>Business</h2>
+                                                <h3 class="packeg_typ"><span>$</span>99<small>/mo</small></h3>
+                                            </div>
+                                            <ul class="list-unstyled plan-lists">
+                                                <li>Unlimited User</li>
+                                                <li>Unlimited ui elements</li>
+                                                <li>E-mail support</li>
+                                            </ul>
+                                            <a href="#" class="try">Try Now</a>
+                                            <a href="#" class="purchase-btn">Purchase</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane tab2" id="price-2">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-6 price">
+                                        <div class="pricing-box wow fadeInUp">
+                                            <div class="pricing-header">
+                                                <h2>Basic</h2>
+                                                <h3 class="packeg_typ"><span>$</span>49<small>/yr</small></h3>
+                                            </div>
+                                            <ul class="list-unstyled plan-lists">
+                                                <li>Unlimited User</li>
+                                                <li>Unlimited ui elements</li>
+                                                <li>E-mail support</li>
+                                            </ul>
+                                            <a href="#" class="try">Try Now</a>
+                                            <a href="#" class="purchase-btn">Purchase</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 price">
+                                        <div class="pricing-box active wow">
+                                            <div class="pricing-header">
+                                                <h2>Professional</h2>
+                                                <h3 class="packeg_typ"><span>$</span>99<small>/yr</small></h3>
+                                            </div>
+                                            <ul class="list-unstyled plan-lists">
+                                                <li>Unlimited User</li>
+                                                <li>Unlimited ui elements</li>
+                                                <li>E-mail support</li>
+                                            </ul>
+                                            <a href="#" class="try">Try Now</a>
+                                            <a href="#" class="purchase-btn">Purchase</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 price">
+                                        <div class="pricing-box wow fadeInUp ">
+                                            <div class="pricing-header">
+                                                <h2>Business</h2>
+                                                <h3 class="packeg_typ"><span>$</span>299<small>/yr</small></h3>
+                                            </div>
+                                            <ul class="list-unstyled plan-lists">
+                                                <li>Unlimited User</li>
+                                                <li>Unlimited ui elements</li>
+                                                <li>E-mail support</li>
+                                            </ul>
+                                            <a href="#" class="try">Try Now</a>
+                                            <a href="#" class="purchase-btn">Purchase</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section1>
+                </div>
+              
+               <!-- Footer-Area -->
+               <div id="contact" >
+    <footer class="footer-area" id="contact_page" >
+        <div class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-title2 text-center">
+                            <h5 class="title2">Contact US</h5>
+                            <h3 class="dark-color">Find Us By Bellow Details</h3>
+                            <div class="space-60"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="footer-box">
+                            <div class="box-icon">
+                                <!-- <span class="lnr lnr-map-marker"></span> -->
+                                <i class="fa fa-map-marker" style='font-size:24px'></i>                                                        
+
+                            </div>
+                            <p>8-54 Paya Lebar Square <br /> 60 Paya Lebar Roa SG, Singapore</p>
+                        </div>
+                        <div class="space-30 hidden visible-xs"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="footer-box">
+                            <div class="box-icon">
+                                <i class="fa fa-phone"  style='font-size:24px'></i>
+                            </div>
+                            <p>+65 93901336 <br /> +65 93901337</p>
+                        </div>
+                        <div class="space-30 hidden visible-xs"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="footer-box">
+                            <div class="box-icon">
+                                <i class='fa fa-envelope' style='font-size:24px'></i>
+                            </div>
+                            <p>Nitika@gmail.com</a> <br /> rohini@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </footer>
+        </div>
+        <!-- Footer-Bootom -->              
+          
+        <footer2 class="footer">
+                <div class="container">
+                    <!-- Start Footer top -->
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                            <div class="footer-logo">
+                                <h4>iSPY</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact-us.html">Privacy Policy</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact-us.html">Terms & Conditions</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                            <div class="footersocial  ">
+                                <ul class="follow-us">
+                                    <li>
+                                        <a href="#" class="fa fa-facebook"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fa fa-twitter"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fa fa-google-plus"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fa fa-linkedin"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fa fa-instagram"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fa fa-youtube-play"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="fa fa-pinterest"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Copy Rights -->
+                <div class="copy-rights-section">
+                    <div class="container">
+                        <p>Copyrights© 2019 iSPY . All rights reserved </p>
+                    </div>
+                </div>
+    
+              
+            </footer2>
+
+</body>
+</html>
